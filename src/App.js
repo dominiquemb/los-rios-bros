@@ -32,6 +32,7 @@ function App() {
           title: "Penas",
           fileName: "01 Penas.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/28o7ukbiZ00N9eo5kH",
           ref: useRef(),
         },
         {
@@ -39,6 +40,7 @@ function App() {
           title: "Más Alla del Infinito",
           fileName: "02 Más Alla del Infinito.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/fZe2a0aeV4h34Y84gE",
           ref: useRef(),
         },
         {
@@ -46,6 +48,7 @@ function App() {
           title: "Al Ritmo de los Rios",
           fileName: "03 Al Ritmo de los Rios.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/eVa2a0cn35l70HS7sR",
           ref: useRef(),
         },
         {
@@ -53,6 +56,7 @@ function App() {
           title: "Solo y Muy Triste",
           fileName: "04 Solo y Muy Triste.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/dR66qgcn3fZL3U46oK",
           ref: useRef(),
         },
         {
@@ -60,6 +64,7 @@ function App() {
           title: "Chiquilla",
           fileName: "05 Chiquilla.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/aEU2a0biZfZLcqA28s",
           ref: useRef(),
         },
         {
@@ -67,6 +72,7 @@ function App() {
           title: "Bajo Las Estrellas",
           fileName: "06 Bajo Las Estrellas.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/14k01Sdr79BnfCM7sN",
           ref: useRef(),
         },
         {
@@ -74,6 +80,7 @@ function App() {
           title: "El Verano Ya Llegó",
           fileName: "07 El Verano Ya Llegó.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/dR65mc72J5l72Q06oG",
           ref: useRef(),
         },
         {
@@ -81,6 +88,7 @@ function App() {
           title: "Hoy Es Mi Cumpleaños",
           fileName: "08 Hoy Es Mi Cumpleaños.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/4gw5mc0El9BneyIeVb",
           ref: useRef(),
         },
         {
@@ -88,12 +96,14 @@ function App() {
           title: "Te Suplico Vuelvas Ya",
           fileName: "09 Te Suplico Vuelvas Ya.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/9AQdSI3Qx4h39eofZe",
           ref: useRef(),
         },
         {
           id: 10,
           title: "Regalame Esta Noche",
           fileName: "10 Regalame Esta Noche.mp3",
+          link: "https://buy.stripe.com/14kbKAgDj00NaiseV9",
           album: "volume-1",
           ref: useRef(),
         },
@@ -108,6 +118,7 @@ function App() {
           title: "Lloraras Lloraras",
           fileName: "01 Lloraras Lloraras.mp3",
           album: "volume-2",
+          link: "https://buy.stripe.com/14k7ukfzffZL2Q0bIW",
           ref: useRef(),
         },
         {
@@ -115,6 +126,7 @@ function App() {
           title: "Llegó Borracho El Borracho",
           fileName: "02 Llegó Borracho El Borracho.mp3",
           album: "volume-2",
+          link: "https://buy.stripe.com/cN29Cs4UBcNz4Y828l",
           ref: useRef(),
         },
         {
@@ -122,6 +134,7 @@ function App() {
           title: "Mirame",
           fileName: "03 Mirame.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/8wMbKAgDjcNzfCMeV6",
           ref: useRef(),
         },
         {
@@ -129,6 +142,7 @@ function App() {
           title: "You Lose a Good Thing",
           fileName: "04 You Lose a Good Thing.mp3",
           album: "volume-2",
+          link: "https://buy.stripe.com/aEUdSI86N9Bn1LW28j",
           ref: useRef(),
         },
         {
@@ -136,6 +150,7 @@ function App() {
           title: "Adios Amigos (Ya Me Voy Para La Guerra)",
           fileName: "05 Adios Amigos (Ya Me Voy Para La Guerra).mp3",
           album: "volume-2",
+          link: "https://buy.stripe.com/28o9Cs72J3cZ9eocMW",
           ref: useRef(),
         },
       ],
@@ -149,6 +164,7 @@ function App() {
           title: "I Know I Know",
           fileName: "01 I Know I Know.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/cN2g0Q9aR8xj76g8wF",
           ref: useRef(),
         },
         {
@@ -156,6 +172,7 @@ function App() {
           title: "Flores Artificiales",
           fileName: "02 Flores Artificiales.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
           ref: useRef(),
         },
         {
@@ -163,6 +180,7 @@ function App() {
           title: "Are You Ready",
           fileName: "03 Are You Ready.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
           ref: useRef(),
         },
         {
@@ -170,6 +188,7 @@ function App() {
           title: "Te Siento Tan Lejos",
           fileName: "04 Te Siento Tan Lejos.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
           ref: useRef(),
         },
         {
@@ -177,6 +196,7 @@ function App() {
           title: "Dulce Miel de Bella Flor",
           fileName: "05 Dulce Miel de Bella Flor.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/6oE8yofzf6pbbmw8wX",
           ref: useRef(),
         },
         {
@@ -184,6 +204,7 @@ function App() {
           title: "Donde Esta Mi Padre",
           fileName: "06 Donde Esta Mi Padre.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/9AQdSIfzf14R62cbJa",
           ref: useRef(),
         },
         {
@@ -191,6 +212,7 @@ function App() {
           title: "Poco a Poco",
           fileName: "07 Poco a Poco.mp3",
           album: "volume-1",
+          link: "https://buy.stripe.com/5kAaGw72J5l7duE14x",
           ref: useRef(),
         },
         {
@@ -198,6 +220,7 @@ function App() {
           title: "Porque No Me Dijiste Adios",
           fileName: "08 Porque No Me Dijiste Adios.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/6oE01Sdr78xj4Y83cG",
           ref: useRef(),
         },
         {
@@ -205,12 +228,15 @@ function App() {
           title: "Hoy Te Vengo a Cantar",
           fileName: "09 Hoy Te Vengo a Cantar.mp3",
           ref: useRef(),
+          album: "volume-3",
+          link: "https://buy.stripe.com/bIYcOEaeV9Bn1LW6oT",
         },
         {
           id: 24,
           title: "Mi Vida",
           fileName: "10 Mi Vida.mp3",
           album: "volume-3",
+          link: "https://buy.stripe.com/4gw15W1Ip8xjgGQeVq",
           ref: useRef(),
         },
       ],
@@ -321,18 +347,19 @@ function App() {
       headerName: "",
       flex: 1,
       renderCell: (params) => (
-        <Button
-          sx={{
-            background: "none",
-            border: "1px solid white",
-            color: "white",
-            borderRadius: 0,
-          }}
-          variant="contained"
-          onClick={() => handlePurchase(params.row)}
-        >
-          Buy ($2.00)
-        </Button>
+        <a href={params.row.link} target="_blank">
+          <Button
+            sx={{
+              background: "none",
+              border: "1px solid white",
+              color: "white",
+              borderRadius: 0,
+            }}
+            variant="contained"
+          >
+            Buy ($2.00)
+          </Button>
+        </a>
       ),
     },
   ]);
@@ -379,7 +406,7 @@ function App() {
             }}
           ></div>
         </div>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} sx={{ marginBottom: 25 }}>
           <Grid item size={7}>
             {/* <Typography
               variant="h2"
@@ -475,32 +502,33 @@ function App() {
           <Grid item size={5}>
             {albums.map((album) => (
               <div id={`${album.href}`}>
-                <Paper sx={{ height: 400, width: "100%", margin: "0px" }}>
-                  <DataGrid
-                    slots={{
-                      columnHeaders: () => (
-                        <div
-                          style={{
-                            width: "100%",
-                            textAlign: "left",
-                            padding: 10,
-                            background: "black",
-                          }}
-                        >
-                          {album.albumName}
-                        </div>
-                      ),
-                    }}
-                    hideFooter={true}
-                    rows={album.songs}
-                    columns={columns}
-                    sx={{
-                      border: 0,
-                      background: "transparent",
-                      color: "white",
-                    }}
-                  />
-                </Paper>
+                {/* <Paper sx={{ height: 400, width: "100%", margin: "0px" }}> */}
+                <DataGrid
+                  slots={{
+                    columnHeaders: () => (
+                      <div
+                        style={{
+                          width: "100%",
+                          textAlign: "left",
+                          padding: 10,
+                          background: "black",
+                        }}
+                      >
+                        {album.albumName}
+                      </div>
+                    ),
+                  }}
+                  hideFooter={true}
+                  rows={album.songs}
+                  columns={columns}
+                  autoHeight
+                  sx={{
+                    border: 0,
+                    background: "transparent",
+                    color: "white",
+                  }}
+                />
+                {/* </Paper> */}
               </div>
             ))}
           </Grid>
