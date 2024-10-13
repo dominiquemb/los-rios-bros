@@ -335,8 +335,15 @@ function Home() {
 
   return (
     <Grid container spacing={2} sx={{ marginBottom: 25 }}>
-      <Grid item size={7}>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+      <Grid item size={{ lg: 7, xs: 12 }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+
+            flexDirection: "row",
+          }}
+        >
           <div style={tileStyle}>
             <img src={BandImage1} style={{ height: 380 }} alt="Los Rios Bros" />
             <div
@@ -366,7 +373,14 @@ function Home() {
             ></div>
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            position: "relative",
+            justifyContent: "center",
+          }}
+        >
           <div style={tileStyle}>
             <img
               src={BandImage3}
@@ -389,8 +403,6 @@ function Home() {
             style={{
               ...tileStyle,
               border: "1px solid white",
-              display: "flex",
-              flexDirection: "column",
               color: "white",
             }}
           >
@@ -412,22 +424,28 @@ function Home() {
                 </a>
               ))}
             </List>
-            <div>
-              Questions?
-              <br />
-              Problems downloading a song?
-              <br />
-              Email:{" "}
-              <a href="mailto:glorias.gr9338@gmail.com">
-                glorias.gr9338@gmail.com
-              </a>
-              <br />
-              Phone: <a href="tel:(210) 900-6551">(210) 900-6551</a>
-            </div>
           </div>
         </div>
+        <br />
+        <div
+          style={{
+            color: "white",
+            width: "100%",
+            display: "block",
+          }}
+        >
+          Questions?
+          <br />
+          Problems downloading a song?
+          <br />
+          Email:{" "}
+          <a href="mailto:glorias.gr9338@gmail.com">glorias.gr9338@gmail.com</a>
+          <br />
+          Phone: <a href="tel:(210) 900-6551">(210) 900-6551</a>
+        </div>
+        <br />
       </Grid>
-      <Grid item size={5}>
+      <Grid item size={{ lg: 5, xs: 12 }}>
         {albums.map((album) => (
           <div id={`${album.href}`}>
             <DataGrid
