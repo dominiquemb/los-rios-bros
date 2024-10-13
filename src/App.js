@@ -1,12 +1,12 @@
 import "./App.css";
-import { Container } from "@mui/material";
+import { Container, Grid2 as Grid } from "@mui/material";
 import BandImage2 from "./assets/bg2.JPEG";
 import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Container maxWidth="lg" style={{ marginTop: "50px" }}>
+      <Container maxWidth="lg" style={{ position: "relative" }}>
         <div
           style={{
             position: "fixed",
@@ -35,20 +35,26 @@ function App() {
             }}
           ></div>
         </div>
-        <h1
+
+        <div
           style={{
-            fontFamily: "inherit",
             position: "absolute",
-            top: 0,
             zIndex: 2,
-            fontWeight: 100,
-            height: "100px",
-            color: "white",
+            width: "100%",
           }}
         >
-          Los Rios Bros
-        </h1>
-        <div style={{ marginTop: "100px", position: "absolute", zIndex: 2 }}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <h1
+              style={{
+                fontFamily: "inherit",
+                fontWeight: 100,
+                height: "50px",
+                color: "white",
+              }}
+            >
+              Los Rios Bros
+            </h1>
+          </div>
           <Outlet />
         </div>
       </Container>
