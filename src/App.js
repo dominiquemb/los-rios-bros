@@ -35,7 +35,22 @@ function App() {
             }}
           ></div>
         </div>
-        <Outlet />
+        <h1
+          style={{
+            fontFamily: "inherit",
+            position: "absolute",
+            top: 0,
+            zIndex: 2,
+            fontWeight: 100,
+            height: "100px",
+            color: "white",
+          }}
+        >
+          Los Rios Bros
+        </h1>
+        <div style={{ marginTop: "100px", position: "absolute", zIndex: 2 }}>
+          <Outlet />
+        </div>
       </Container>
     </div>
   );
