@@ -128,7 +128,7 @@ function Home() {
           id: 13,
           title: "Mirame",
           fileName: "03 Mirame.mp3",
-          album: "volume-1",
+          album: "volume-2",
           link: "https://buy.stripe.com/8wMbKAgDjcNzfCMeV6",
           ref: useRef(),
         },
@@ -140,52 +140,52 @@ function Home() {
           link: "https://buy.stripe.com/aEUdSI86N9Bn1LW28j",
           ref: useRef(),
         },
-        {
-          id: 15,
-          title: "Adios Amigos (Ya Me Voy Para La Guerra)",
-          fileName: "05 Adios Amigos (Ya Me Voy Para La Guerra).mp3",
-          album: "volume-2",
-          link: "https://buy.stripe.com/28o9Cs72J3cZ9eocMW",
-          ref: useRef(),
-        },
+        // {
+        //   id: 15,
+        //   title: "Adios Amigos (Ya Me Voy Para La Guerra)",
+        //   fileName: "05 Adios Amigos (Ya Me Voy Para La Guerra).mp3",
+        //   album: "volume-2",
+        //   link: "https://buy.stripe.com/28o9Cs72J3cZ9eocMW",
+        //   ref: useRef(),
+        // },
       ],
     },
     {
       albumName: "Vol. 3",
       href: "volume-3",
       songs: [
-        {
-          id: 16,
-          title: "I Know I Know",
-          fileName: "01 I Know I Know.mp3",
-          album: "volume-1",
-          link: "https://buy.stripe.com/cN2g0Q9aR8xj76g8wF",
-          ref: useRef(),
-        },
-        {
-          id: 17,
-          title: "Flores Artificiales",
-          fileName: "02 Flores Artificiales.mp3",
-          album: "volume-3",
-          link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
-          ref: useRef(),
-        },
-        {
-          id: 3,
-          title: "Are You Ready",
-          fileName: "03 Are You Ready.mp3",
-          album: "volume-1",
-          link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
-          ref: useRef(),
-        },
-        {
-          id: 18,
-          title: "Te Siento Tan Lejos",
-          fileName: "04 Te Siento Tan Lejos.mp3",
-          album: "volume-3",
-          link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
-          ref: useRef(),
-        },
+        // {
+        //   id: 16,
+        //   title: "I Know I Know",
+        //   fileName: "01 I Know I Know.mp3",
+        //   album: "volume-1",
+        //   link: "https://buy.stripe.com/cN2g0Q9aR8xj76g8wF",
+        //   ref: useRef(),
+        // },
+        // {
+        //   id: 17,
+        //   title: "Flores Artificiales",
+        //   fileName: "02 Flores Artificiales.mp3",
+        //   album: "volume-3",
+        //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
+        //   ref: useRef(),
+        // },
+        // {
+        //   id: 3,
+        //   title: "Are You Ready",
+        //   fileName: "03 Are You Ready_.mp3",
+        //   album: "volume-1",
+        //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
+        //   ref: useRef(),
+        // },
+        // {
+        //   id: 18,
+        //   title: "Te Siento Tan Lejos",
+        //   fileName: "04 Te Siento Tan Lejos.mp3",
+        //   album: "volume-3",
+        //   link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
+        //   ref: useRef(),
+        // },
         {
           id: 19,
           title: "Dulce Miel de Bella Flor",
@@ -197,46 +197,48 @@ function Home() {
         {
           id: 20,
           title: "Donde Esta Mi Padre",
-          fileName: "06 Donde Esta Mi Padre.mp3",
+          fileName: "06 Donde Esta Mi Padre_.mp3",
           album: "volume-3",
           link: "https://buy.stripe.com/9AQdSIfzf14R62cbJa",
           ref: useRef(),
         },
-        {
-          id: 21,
-          title: "Poco a Poco",
-          fileName: "07 Poco a Poco.mp3",
-          album: "volume-1",
-          link: "https://buy.stripe.com/5kAaGw72J5l7duE14x",
-          ref: useRef(),
-        },
-        {
-          id: 22,
-          title: "Porque No Me Dijiste Adios",
-          fileName: "08 Porque No Me Dijiste Adios.mp3",
-          album: "volume-3",
-          link: "https://buy.stripe.com/6oE01Sdr78xj4Y83cG",
-          ref: useRef(),
-        },
-        {
-          id: 23,
-          title: "Hoy Te Vengo a Cantar",
-          fileName: "09 Hoy Te Vengo a Cantar.mp3",
-          ref: useRef(),
-          album: "volume-3",
-          link: "https://buy.stripe.com/bIYcOEaeV9Bn1LW6oT",
-        },
-        {
-          id: 24,
-          title: "Mi Vida",
-          fileName: "10 Mi Vida.mp3",
-          album: "volume-3",
-          link: "https://buy.stripe.com/4gw15W1Ip8xjgGQeVq",
-          ref: useRef(),
-        },
+        // {
+        //   id: 21,
+        //   title: "Poco a Poco",
+        //   fileName: "07 Poco a Poco.mp3",
+        //   album: "volume-1",
+        //   link: "https://buy.stripe.com/5kAaGw72J5l7duE14x",
+        //   ref: useRef(),
+        // },
+        // {
+        //   id: 22,
+        //   title: "Porque No Me Dijiste Adios",
+        //   fileName: "08 Porque No Me Dijiste Adios.mp3",
+        //   album: "volume-3",
+        //   link: "https://buy.stripe.com/6oE01Sdr78xj4Y83cG",
+        //   ref: useRef(),
+        // },
+        // {
+        //   id: 23,
+        //   title: "Hoy Te Vengo a Cantar",
+        //   fileName: "09 Hoy Te Vengo a Cantar.mp3",
+        //   ref: useRef(),
+        //   album: "volume-3",
+        //   link: "https://buy.stripe.com/bIYcOEaeV9Bn1LW6oT",
+        // },
+        // {
+        //   id: 24,
+        //   title: "Mi Vida",
+        //   fileName: "10 Mi Vida.mp3",
+        //   album: "volume-3",
+        //   link: "https://buy.stripe.com/4gw15W1Ip8xjgGQeVq",
+        //   ref: useRef(),
+        // },
       ],
     },
   ];
+
+  const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
 
   const tileStyle = {
     height: 300,
@@ -250,6 +252,22 @@ function Home() {
 
   const SongCell = ({ params }) => {
     const [isPlaying, setIsPlaying] = useState(false);
+    const interval = useRef(null);
+
+    const checkPlayStatus = () => {
+      if (
+        params.row.ref.current &&
+        params.row.ref.current.id &&
+        currentlyPlaying !== params.row.ref.current.id &&
+        params.row.ref.current.paused &&
+        isPlaying
+      ) {
+        setIsPlaying(false);
+      }
+    };
+
+    clearInterval(interval.current);
+    interval.current = setInterval(checkPlayStatus, 300);
 
     // song cell
     return (
@@ -268,9 +286,9 @@ function Home() {
         </IconButton>
         <span style={{ marginLeft: "5px" }}>{params.row.title}</span>
 
-        <audio ref={params.row.ref} title={params.row.title}>
+        <audio id={params.row.id} ref={params.row.ref} title={params.row.title}>
           <source
-            src={`/assets/songs/${params.row.album}/${params.row.fileName}`}
+            src={`/assets/songs/${params.row.album}/samples/${params.row.fileName}`}
             type="audio/mpeg"
           />
           Your browser does not support the audio element.
@@ -282,17 +300,28 @@ function Home() {
   const playSong = (ref, setIsPlaying) => {
     try {
       if (!ref.current.paused) {
-        console.log("pause");
         ref.current.pause();
         setIsPlaying(false);
+        setCurrentlyPlaying(null);
       } else {
-        console.log("play");
+        albums.forEach((album) => {
+          album.songs.forEach((song) => {
+            song.ref.current.pause();
+          });
+        });
         ref.current.play();
         setIsPlaying(true);
+        if (ref.current.id) {
+          setCurrentlyPlaying(ref.current.id);
+        }
       }
     } catch (e) {
       console.log(e);
     }
+
+    ref.current.onended = () => {
+      setIsPlaying(false);
+    };
   };
 
   const [columns, setColumns] = useState([
