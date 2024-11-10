@@ -148,44 +148,15 @@ function Home() {
         //   link: "https://buy.stripe.com/28o9Cs72J3cZ9eocMW",
         //   ref: useRef(),
         // },
-      ],
-    },
-    {
-      albumName: "Vol. 3",
-      href: "volume-3",
-      songs: [
-        // {
-        //   id: 16,
-        //   title: "I Know I Know",
-        //   fileName: "01 I Know I Know.mp3",
-        //   album: "volume-1",
-        //   link: "https://buy.stripe.com/cN2g0Q9aR8xj76g8wF",
-        //   ref: useRef(),
-        // },
-        // {
-        //   id: 17,
-        //   title: "Flores Artificiales",
-        //   fileName: "02 Flores Artificiales.mp3",
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
-        //   ref: useRef(),
-        // },
-        // {
-        //   id: 3,
-        //   title: "Are You Ready",
-        //   fileName: "03 Are You Ready_.mp3",
-        //   album: "volume-1",
-        //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
-        //   ref: useRef(),
-        // },
-        // {
-        //   id: 18,
-        //   title: "Te Siento Tan Lejos",
-        //   fileName: "04 Te Siento Tan Lejos.mp3",
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
-        //   ref: useRef(),
-        // },
+        // songs that were moved from vol. 3 to vol. 2:
+        {
+          id: 17,
+          title: "Flores Artificiales",
+          fileName: "02 Flores Artificiales.mp3",
+          album: "volume-3",
+          link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
+          ref: useRef(),
+        },
         {
           id: 19,
           title: "Dulce Miel de Bella Flor",
@@ -202,40 +173,94 @@ function Home() {
           link: "https://buy.stripe.com/9AQdSIfzf14R62cbJa",
           ref: useRef(),
         },
-        // {
-        //   id: 21,
-        //   title: "Poco a Poco",
-        //   fileName: "07 Poco a Poco.mp3",
-        //   album: "volume-1",
-        //   link: "https://buy.stripe.com/5kAaGw72J5l7duE14x",
-        //   ref: useRef(),
-        // },
-        // {
-        //   id: 22,
-        //   title: "Porque No Me Dijiste Adios",
-        //   fileName: "08 Porque No Me Dijiste Adios.mp3",
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/6oE01Sdr78xj4Y83cG",
-        //   ref: useRef(),
-        // },
-        // {
-        //   id: 23,
-        //   title: "Hoy Te Vengo a Cantar",
-        //   fileName: "09 Hoy Te Vengo a Cantar.mp3",
-        //   ref: useRef(),
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/bIYcOEaeV9Bn1LW6oT",
-        // },
-        // {
-        //   id: 24,
-        //   title: "Mi Vida",
-        //   fileName: "10 Mi Vida.mp3",
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/4gw15W1Ip8xjgGQeVq",
-        //   ref: useRef(),
-        // },
       ],
     },
+    // {
+    //   albumName: "Vol. 3",
+    //   href: "volume-3",
+    //   songs: [
+    // {
+    //   id: 16,
+    //   title: "I Know I Know",
+    //   fileName: "01 I Know I Know.mp3",
+    //   album: "volume-1",
+    //   link: "https://buy.stripe.com/cN2g0Q9aR8xj76g8wF",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 17,
+    //   title: "Flores Artificiales",
+    //   fileName: "02 Flores Artificiales.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 3,
+    //   title: "Are You Ready",
+    //   fileName: "03 Are You Ready_.mp3",
+    //   album: "volume-1",
+    //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 18,
+    //   title: "Te Siento Tan Lejos",
+    //   fileName: "04 Te Siento Tan Lejos.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 19,
+    //   title: "Dulce Miel de Bella Flor",
+    //   fileName: "05 Dulce Miel de Bella Flor.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/6oE8yofzf6pbbmw8wX",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 20,
+    //   title: "Donde Esta Mi Padre",
+    //   fileName: "06 Donde Esta Mi Padre_.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/9AQdSIfzf14R62cbJa",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 21,
+    //   title: "Poco a Poco",
+    //   fileName: "07 Poco a Poco.mp3",
+    //   album: "volume-1",
+    //   link: "https://buy.stripe.com/5kAaGw72J5l7duE14x",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 22,
+    //   title: "Porque No Me Dijiste Adios",
+    //   fileName: "08 Porque No Me Dijiste Adios.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/6oE01Sdr78xj4Y83cG",
+    //   ref: useRef(),
+    // },
+    // {
+    //   id: 23,
+    //   title: "Hoy Te Vengo a Cantar",
+    //   fileName: "09 Hoy Te Vengo a Cantar.mp3",
+    //   ref: useRef(),
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/bIYcOEaeV9Bn1LW6oT",
+    // },
+    // {
+    //   id: 24,
+    //   title: "Mi Vida",
+    //   fileName: "10 Mi Vida.mp3",
+    //   album: "volume-3",
+    //   link: "https://buy.stripe.com/4gw15W1Ip8xjgGQeVq",
+    //   ref: useRef(),
+    // },
+    //   ],
+    // },
   ];
 
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
@@ -475,6 +500,9 @@ function Home() {
         <br />
       </Grid>
       <Grid item size={{ lg: 5, xs: 12 }}>
+        <span style={{ color: "white" }}>Arsol Records</span>
+        <br />
+        <br />
         {albums.map((album) => (
           <div id={`${album.href}`}>
             <DataGrid
