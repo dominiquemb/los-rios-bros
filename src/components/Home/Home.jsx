@@ -19,6 +19,22 @@ import PauseCircleIcon from "@mui/icons-material/PauseCircle";
 function Home() {
   const albums = [
     {
+      albumName: "New releases",
+      href: "new-releases",
+      songs: [
+        {
+          id: 30,
+          title: "Lo Nuestro Termino",
+          artistName: "Dominique Baltierra ft. Armando Rios",
+          fileName:
+            "Lo Nuestro Termino - Dominique Baltierra ft Armando Rios.mp4",
+          album: "new-releases",
+          link: "https://buy.stripe.com/14k3e43Qx00N1LW8x8",
+          ref: useRef(),
+        },
+      ],
+    },
+    {
       albumName: "Vol. I",
       href: "volume-1",
       songs: [
@@ -349,7 +365,20 @@ function Home() {
             <PlayCircleIcon style={{ color: "white" }} />
           )}
         </IconButton>
-        <span style={{ marginLeft: "5px" }}>{params.row.title}</span>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            paddingTop: "11px",
+          }}
+        >
+          <div style={{ marginLeft: "5px", lineHeight: "1.3" }}>
+            {params.row.title}
+          </div>
+          <div style={{ marginLeft: "5px", lineHeight: "1.3" }}>
+            {params.row.artistName}
+          </div>
+        </div>
 
         <audio id={params.row.id} ref={params.row.ref} title={params.row.title}>
           <source
@@ -401,7 +430,7 @@ function Home() {
     {
       field: "actions",
       headerName: "",
-      flex: 1,
+      width: 135,
       renderCell: (params) => (
         <a href={params.row.link} target="_blank">
           <Button
@@ -410,6 +439,7 @@ function Home() {
               border: "1px solid white",
               color: "white",
               borderRadius: 0,
+              marginRight: "20px !important",
             }}
             variant="contained"
           >
