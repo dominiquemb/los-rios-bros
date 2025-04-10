@@ -259,14 +259,14 @@ function Home() {
         //   link: "https://buy.stripe.com/aEUg0QgDj4h3eyIbIQ",
         //   ref: useRef(),
         // },
-        // {
-        //   id: 18,
-        //   title: "Te Siento Tan Lejos",
-        //   fileName: "04 Te Siento Tan Lejos.mp3",
-        //   album: "volume-3",
-        //   link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
-        //   ref: useRef(),
-        // },
+        {
+          id: 18,
+          title: "Te Siento Tan Lejos",
+          fileName: "04 Te Siento Tan Lejos.mp3",
+          album: "new-releases",
+          link: "https://buy.stripe.com/eVa01S3Qx7tf4Y86ov",
+          ref: useRef(),
+        },
         // {
         //   id: 19,
         //   title: "Dulce Miel de Bella Flor",

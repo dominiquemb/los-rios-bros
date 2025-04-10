@@ -52,7 +52,7 @@ function App() {
                 color: "white",
               }}
             >
-              Los Rios Bros
+              Arsol Records
             </h1>
           </div>
           <Outlet />
