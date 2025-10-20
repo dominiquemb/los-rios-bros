@@ -23,6 +23,14 @@ function Home() {
       href: "new-releases",
       songs: [
         {
+          id: 14,
+          title: "You Lose a Good Thing",
+          fileName: "04 You Lose a Good Thing.mp3",
+          album: "volume-2",
+          link: "https://buy.stripe.com/aEUdSI86N9Bn1LW28j",
+          ref: useRef(),
+        },
+        {
           id: 30,
           title: "Lo Nuestro Termino",
           artistName: "Dominique Baltierra ft. Armando Rios",
