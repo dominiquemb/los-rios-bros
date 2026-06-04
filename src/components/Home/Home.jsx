@@ -572,7 +572,7 @@ function Home() {
           Problems downloading a song?
           <br />
           Email:{" "}
-          <a href="mailto:glorias.gr9338@gmail.com">glorias.gr9338@gmail.com</a>
+          <a href="mailto:arsol.pubb@gmail.com">arsol.pubb@gmail.com</a>
           <br />
           Phone: <a href="tel:(210) 900-6551">(210) 900-6551</a>
         </div>
