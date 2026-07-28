@@ -23,6 +23,14 @@ function Home() {
       href: "new-releases",
       songs: [
         {
+          id: 31,
+          title: "You Will Cry",
+          fileName: "You Will Cry.mp3",
+          album: "new-releases",
+          link: "#",
+          ref: useRef(),
+        },
+        {
           id: 14,
           title: "You Lose a Good Thing",
           fileName: "04 You Lose a Good Thing.mp3",
