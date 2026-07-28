@@ -27,7 +27,7 @@ function Home() {
           title: "You Will Cry",
           fileName: "You Will Cry.mp3",
           album: "new-releases",
-          link: "#",
+          link: "https://buy.stripe.com/7sY00i7pq78f7pHce51B60D",
           ref: useRef(),
         },
         {
