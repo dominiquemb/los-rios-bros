@@ -27,7 +27,7 @@ function Home() {
           title: "You Will Cry",
           fileName: "You Will Cry.mp3",
           album: "new-releases",
-          link: "https://buy.stripe.com/7sY00i7pq78f7pHce51B60D",
+          link: "https://arsolmusic.com/download/new-releases/You%20Will%20Cry.mp3",
           ref: useRef(),
         },
         {
